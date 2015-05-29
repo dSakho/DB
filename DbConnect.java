@@ -17,7 +17,7 @@ public class DbConnect {
 		String database = "addressBook";
 		// we login as "root" user with the password "maike93"
 		String userName = "root";
-		String password = "maike93";
+		String password = "**************";
 		
 		try (Connection connection = DriverManager.getConnection(
 				url + database, userName, password)) {
